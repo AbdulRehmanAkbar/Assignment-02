@@ -1,6 +1,7 @@
 void main() {
-  List<int> numbers = [1, 9, 8, 7, 6, 5, 4, 3, 45, 67, 89, 123, 456, 789, 678];
-  List<int> number = numbers.sort();
-  // print("list of numbers:$numbers");
-  print("list of numbers arranged in ascending order:$number");
+  List<int> numbers = [1, 8, 7, 9, 56, 5, 6, 8, 4, 345];
+  List<int> sortnumbers = List.from(numbers);
+  sortnumbers.sort();
+  print("Original lsit of numbers $numbers");
+  print("list of numbers arranged in ascending order $sortnumbers");
 }
